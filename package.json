@@ -107,7 +107,7 @@
     "vitest": "^0.32.2"
   },
   "dependencies": {
-    "rxfire": "github:masewo/rxfire",
+    "rxfire": "https://github.com/masewo/rxfire.git",
     "rxjs": "^6.6.3 || ^7.0.1",
     "use-sync-external-store": "^1.2.0"
   }

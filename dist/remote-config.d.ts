@@ -1,5 +1,5 @@
 import { ObservableStatus } from './useObservable';
-import { AllParameters } from 'rxfire/remote-config';
+import { AllParameters } from 'rxfire/dist/remote-config';
 import type { Value as RemoteConfigValue } from 'firebase/remote-config';
 /**
  * Accepts a key and optionally a Remote Config instance. Returns a

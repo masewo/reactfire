@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { getDownloadURL, fromTask } from 'rxfire/storage';
+import { getDownloadURL, fromTask } from 'rxfire/dist/storage';
 import { ReactFireOptions, useObservable, ObservableStatus, useStorage } from './';
 import { useSuspenseEnabledFromConfigAndContext } from './firebaseApp';
 import { ref } from 'firebase/storage';

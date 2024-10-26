@@ -1,4 +1,4 @@
-import { httpsCallable as rxHttpsCallable } from 'rxfire/functions';
+import { httpsCallable as rxHttpsCallable } from 'rxfire/dist/functions';
 import { ReactFireOptions, useObservable, ObservableStatus } from './';
 import { useFunctions } from '.';
 

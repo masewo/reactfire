@@ -114,7 +114,7 @@ ReactFire reference docs
 
 ### ObservableStatus
 
-Ƭ **ObservableStatus**<`T`\>: [`ObservableStatusLoading`](interfaces/ObservableStatusLoading.md)<`T`\> \| [`ObservableStatusError`](interfaces/ObservableStatusError.md)<`T`\> \| [`ObservableStatusSuccess`](interfaces/ObservableStatusSuccess.md)<`T`\>
+Ƭ **ObservableStatus**\<`T`\>: [`ObservableStatusLoading`](interfaces/ObservableStatusLoading.md)\<`T`\> \| [`ObservableStatusError`](interfaces/ObservableStatusError.md)\<`T`\> \| [`ObservableStatusSuccess`](interfaces/ObservableStatusSuccess.md)\<`T`\>
 
 #### Type parameters
 
@@ -124,7 +124,7 @@ ReactFire reference docs
 
 #### Defined in
 
-[src/useObservable.ts:84](https://github.com/FirebaseExtended/reactfire/blob/main/src/useObservable.ts#L84)
+[src/useObservable.ts:84](https://github.com/masewo/reactfire/blob/main/src/useObservable.ts#L84)
 
 ___
 
@@ -138,21 +138,21 @@ ___
 | :------ | :------ |
 | `_reactFireDatabaseCachedQueries` | `DatabaseQuery`[] |
 | `_reactFireFirestoreQueryCache` | `FirestoreQuery`[] |
-| `_reactFirePreloadedObservables` | `Map`<`string`, `SuspenseSubject`<`any`\>\> |
+| `_reactFirePreloadedObservables` | `Map`\<`string`, `SuspenseSubject`\<`any`\>\> |
 
 #### Defined in
 
-[src/index.ts:6](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L6)
+[src/index.ts:6](https://github.com/masewo/reactfire/blob/main/src/index.ts#L6)
 
 ___
 
 ### SigninCheckResult
 
-Ƭ **SigninCheckResult**: { `errors`: {} ; `hasRequiredClaims`: ``false`` ; `signedIn`: ``false`` ; `user`: ``null``  } \| { `errors`: [`ClaimCheckErrors`](interfaces/ClaimCheckErrors.md) ; `hasRequiredClaims`: `boolean` ; `signedIn`: ``true`` ; `user`: `User`  }
+Ƭ **SigninCheckResult**: \{ `errors`: {} ; `hasRequiredClaims`: ``false`` ; `signedIn`: ``false`` ; `user`: ``null``  } \| \{ `errors`: [`ClaimCheckErrors`](interfaces/ClaimCheckErrors.md) ; `hasRequiredClaims`: `boolean` ; `signedIn`: ``true`` ; `user`: `User`  }
 
 #### Defined in
 
-[src/auth.tsx:59](https://github.com/FirebaseExtended/reactfire/blob/main/src/auth.tsx#L59)
+[src/auth.tsx:59](https://github.com/masewo/reactfire/blob/main/src/auth.tsx#L59)
 
 ___
 
@@ -171,97 +171,97 @@ ___
 
 #### Defined in
 
-[src/storage.tsx:36](https://github.com/FirebaseExtended/reactfire/blob/main/src/storage.tsx#L36)
+[src/storage.tsx:36](https://github.com/masewo/reactfire/blob/main/src/storage.tsx#L36)
 
 ## Variables
 
 ### AnalyticsSdkContext
 
-• `Const` **AnalyticsSdkContext**: `Context`<`undefined` \| `Analytics`\>
+• `Const` **AnalyticsSdkContext**: `Context`\<`undefined` \| `Analytics`\>
 
 #### Defined in
 
-[src/sdk.tsx:20](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L20)
+[src/sdk.tsx:20](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L20)
 
 ___
 
 ### AppCheckSdkContext
 
-• `Const` **AppCheckSdkContext**: `Context`<`undefined` \| `AppCheck`\>
+• `Const` **AppCheckSdkContext**: `Context`\<`undefined` \| `AppCheck`\>
 
 #### Defined in
 
-[src/sdk.tsx:18](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L18)
+[src/sdk.tsx:18](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L18)
 
 ___
 
 ### AuthSdkContext
 
-• `Const` **AuthSdkContext**: `Context`<`undefined` \| `Auth`\>
+• `Const` **AuthSdkContext**: `Context`\<`undefined` \| `Auth`\>
 
 #### Defined in
 
-[src/sdk.tsx:19](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L19)
+[src/sdk.tsx:19](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L19)
 
 ___
 
 ### DatabaseSdkContext
 
-• `Const` **DatabaseSdkContext**: `Context`<`undefined` \| `Database`\>
+• `Const` **DatabaseSdkContext**: `Context`\<`undefined` \| `Database`\>
 
 #### Defined in
 
-[src/sdk.tsx:21](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L21)
+[src/sdk.tsx:21](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L21)
 
 ___
 
 ### FirestoreSdkContext
 
-• `Const` **FirestoreSdkContext**: `Context`<`undefined` \| `Firestore`\>
+• `Const` **FirestoreSdkContext**: `Context`\<`undefined` \| `Firestore`\>
 
 #### Defined in
 
-[src/sdk.tsx:22](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L22)
+[src/sdk.tsx:22](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L22)
 
 ___
 
 ### FunctionsSdkContext
 
-• `Const` **FunctionsSdkContext**: `Context`<`undefined` \| `Functions`\>
+• `Const` **FunctionsSdkContext**: `Context`\<`undefined` \| `Functions`\>
 
 #### Defined in
 
-[src/sdk.tsx:23](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L23)
+[src/sdk.tsx:23](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L23)
 
 ___
 
 ### PerformanceSdkContext
 
-• `Const` **PerformanceSdkContext**: `Context`<`undefined` \| `FirebasePerformance`\>
+• `Const` **PerformanceSdkContext**: `Context`\<`undefined` \| `FirebasePerformance`\>
 
 #### Defined in
 
-[src/sdk.tsx:25](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L25)
+[src/sdk.tsx:25](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L25)
 
 ___
 
 ### RemoteConfigSdkContext
 
-• `Const` **RemoteConfigSdkContext**: `Context`<`undefined` \| `RemoteConfig`\>
+• `Const` **RemoteConfigSdkContext**: `Context`\<`undefined` \| `RemoteConfig`\>
 
 #### Defined in
 
-[src/sdk.tsx:26](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L26)
+[src/sdk.tsx:26](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L26)
 
 ___
 
 ### StorageSdkContext
 
-• `Const` **StorageSdkContext**: `Context`<`undefined` \| `FirebaseStorage`\>
+• `Const` **StorageSdkContext**: `Context`\<`undefined` \| `FirebaseStorage`\>
 
 #### Defined in
 
-[src/sdk.tsx:24](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L24)
+[src/sdk.tsx:24](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L24)
 
 ___
 
@@ -271,7 +271,7 @@ ___
 
 #### Defined in
 
-[src/firebaseApp.tsx:20](https://github.com/FirebaseExtended/reactfire/blob/main/src/firebaseApp.tsx#L20)
+[src/firebaseApp.tsx:20](https://github.com/masewo/reactfire/blob/main/src/firebaseApp.tsx#L20)
 
 ## Functions
 
@@ -283,7 +283,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `PropsWithChildren`<{ `sdk`: `Analytics`  }\> |
+| `props` | `PropsWithChildren`\<\{ `sdk`: `Analytics`  }\> |
 
 #### Returns
 
@@ -291,7 +291,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
@@ -303,7 +303,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `PropsWithChildren`<{ `sdk`: `AppCheck`  }\> |
+| `props` | `PropsWithChildren`\<\{ `sdk`: `AppCheck`  }\> |
 
 #### Returns
 
@@ -311,21 +311,13 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
 ### AuthCheck
 
 ▸ **AuthCheck**(`«destructured»`): `JSX.Element`
-
-**`Deprecated`**
-
-Use `useSigninCheck` instead
-
-Conditionally render children based on signed-in status and [custom claims](https://firebase.google.com/docs/auth/admin/custom-claims).
-
-Meant for Concurrent mode only (`<FirebaseAppProvider suspense=true />`). [More detail](https://github.com/FirebaseExtended/reactfire/issues/325#issuecomment-827654376).
 
 #### Parameters
 
@@ -337,9 +329,17 @@ Meant for Concurrent mode only (`<FirebaseAppProvider suspense=true />`). [More 
 
 `JSX.Element`
 
+**`Deprecated`**
+
+Use `useSigninCheck` instead
+
+Conditionally render children based on signed-in status and [custom claims](https://firebase.google.com/docs/auth/admin/custom-claims).
+
+Meant for Concurrent mode only (`<FirebaseAppProvider suspense=true />`). [More detail](https://github.com/FirebaseExtended/reactfire/issues/325#issuecomment-827654376).
+
 #### Defined in
 
-[src/auth.tsx:247](https://github.com/FirebaseExtended/reactfire/blob/main/src/auth.tsx#L247)
+[src/auth.tsx:247](https://github.com/masewo/reactfire/blob/main/src/auth.tsx#L247)
 
 ___
 
@@ -351,7 +351,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `PropsWithChildren`<{ `sdk`: `Auth`  }\> |
+| `props` | `PropsWithChildren`\<\{ `sdk`: `Auth`  }\> |
 
 #### Returns
 
@@ -359,21 +359,13 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
 ### ClaimsCheck
 
 ▸ **ClaimsCheck**(`«destructured»`): `Element`
-
-**`Deprecated`**
-
-Use `useSigninCheck` instead
-
-Conditionally render children based on [custom claims](https://firebase.google.com/docs/auth/admin/custom-claims).
-
-Meant for Concurrent mode only (`<FirebaseAppProvider suspense=true />`). [More detail](https://github.com/FirebaseExtended/reactfire/issues/325#issuecomment-827654376).
 
 #### Parameters
 
@@ -385,9 +377,17 @@ Meant for Concurrent mode only (`<FirebaseAppProvider suspense=true />`). [More 
 
 `Element`
 
+**`Deprecated`**
+
+Use `useSigninCheck` instead
+
+Conditionally render children based on [custom claims](https://firebase.google.com/docs/auth/admin/custom-claims).
+
+Meant for Concurrent mode only (`<FirebaseAppProvider suspense=true />`). [More detail](https://github.com/FirebaseExtended/reactfire/issues/325#issuecomment-827654376).
+
 #### Defined in
 
-[src/auth.tsx:203](https://github.com/FirebaseExtended/reactfire/blob/main/src/auth.tsx#L203)
+[src/auth.tsx:203](https://github.com/masewo/reactfire/blob/main/src/auth.tsx#L203)
 
 ___
 
@@ -399,7 +399,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `PropsWithChildren`<{ `sdk`: `Database`  }\> |
+| `props` | `PropsWithChildren`\<\{ `sdk`: `Database`  }\> |
 
 #### Returns
 
@@ -407,7 +407,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
@@ -419,7 +419,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `PropsWithChildren`<[`FirebaseAppProviderProps`](interfaces/FirebaseAppProviderProps.md)\> |
+| `props` | `PropsWithChildren`\<[`FirebaseAppProviderProps`](interfaces/FirebaseAppProviderProps.md)\> |
 
 #### Returns
 
@@ -427,7 +427,7 @@ ___
 
 #### Defined in
 
-[src/firebaseApp.tsx:24](https://github.com/FirebaseExtended/reactfire/blob/main/src/firebaseApp.tsx#L24)
+[src/firebaseApp.tsx:24](https://github.com/masewo/reactfire/blob/main/src/firebaseApp.tsx#L24)
 
 ___
 
@@ -439,7 +439,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `PropsWithChildren`<{ `sdk`: `Firestore`  }\> |
+| `props` | `PropsWithChildren`\<\{ `sdk`: `Firestore`  }\> |
 
 #### Returns
 
@@ -447,7 +447,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
@@ -459,7 +459,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `PropsWithChildren`<{ `sdk`: `Functions`  }\> |
+| `props` | `PropsWithChildren`\<\{ `sdk`: `Functions`  }\> |
 
 #### Returns
 
@@ -467,7 +467,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
@@ -479,7 +479,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `PropsWithChildren`<{ `sdk`: `FirebasePerformance`  }\> |
+| `props` | `PropsWithChildren`\<\{ `sdk`: `FirebasePerformance`  }\> |
 
 #### Returns
 
@@ -487,7 +487,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
@@ -499,7 +499,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `PropsWithChildren`<{ `sdk`: `RemoteConfig`  }\> |
+| `props` | `PropsWithChildren`\<\{ `sdk`: `RemoteConfig`  }\> |
 
 #### Returns
 
@@ -507,7 +507,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
@@ -519,7 +519,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`StorageImageProps`](README.md#storageimageprops) & `ClassAttributes`<`HTMLImageElement`\> & `ImgHTMLAttributes`<`HTMLImageElement`\> |
+| `props` | [`StorageImageProps`](README.md#storageimageprops) & `ClassAttributes`\<`HTMLImageElement`\> & `ImgHTMLAttributes`\<`HTMLImageElement`\> |
 
 #### Returns
 
@@ -527,7 +527,7 @@ ___
 
 #### Defined in
 
-[src/storage.tsx:78](https://github.com/FirebaseExtended/reactfire/blob/main/src/storage.tsx#L78)
+[src/storage.tsx:78](https://github.com/masewo/reactfire/blob/main/src/storage.tsx#L78)
 
 ___
 
@@ -539,7 +539,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `PropsWithChildren`<{ `sdk`: `FirebaseStorage`  }\> |
+| `props` | `PropsWithChildren`\<\{ `sdk`: `FirebaseStorage`  }\> |
 
 #### Returns
 
@@ -547,7 +547,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L31)
+[src/sdk.tsx:31](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L31)
 
 ___
 
@@ -567,7 +567,7 @@ ___
 
 #### Defined in
 
-[src/performance.tsx:9](https://github.com/FirebaseExtended/reactfire/blob/main/src/performance.tsx#L9)
+[src/performance.tsx:9](https://github.com/masewo/reactfire/blob/main/src/performance.tsx#L9)
 
 ___
 
@@ -579,7 +579,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `options` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`unknown`\> |
+| `options` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`unknown`\> |
 
 #### Returns
 
@@ -587,7 +587,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:47](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L47)
+[src/index.ts:47](https://github.com/masewo/reactfire/blob/main/src/index.ts#L47)
 
 ___
 
@@ -599,7 +599,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `options` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`unknown`\> |
+| `options` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`unknown`\> |
 | `field` | `string` |
 
 #### Returns
@@ -608,7 +608,7 @@ ___
 
 #### Defined in
 
-[src/index.ts:34](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L34)
+[src/index.ts:34](https://github.com/masewo/reactfire/blob/main/src/index.ts#L34)
 
 ___
 
@@ -620,7 +620,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `options` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`unknown`\> |
+| `options` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`unknown`\> |
 
 #### Returns
 
@@ -628,13 +628,13 @@ ___
 
 #### Defined in
 
-[src/index.ts:43](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L43)
+[src/index.ts:43](https://github.com/masewo/reactfire/blob/main/src/index.ts#L43)
 
 ___
 
 ### preloadFirestoreDoc
 
-▸ **preloadFirestoreDoc**(`refProvider`): `Promise`<`SuspenseSubject`<`DocumentSnapshot`<`DocumentData`, `DocumentData`\>\>\>
+▸ **preloadFirestoreDoc**(`refProvider`): `Promise`\<`SuspenseSubject`\<`DocumentSnapshot`\<`DocumentData`, `DocumentData`\>\>\>
 
 Preload a subscription to a Firestore document reference.
 
@@ -644,21 +644,21 @@ Use this to warm up `useFirestoreDoc` for a specific document
 
 | Name | Type |
 | :------ | :------ |
-| `refProvider` | () => `Promise`<`DocumentReference`<`DocumentData`, `DocumentData`\>\> |
+| `refProvider` | () => `Promise`\<`DocumentReference`\<`DocumentData`, `DocumentData`\>\> |
 
 #### Returns
 
-`Promise`<`SuspenseSubject`<`DocumentSnapshot`<`DocumentData`, `DocumentData`\>\>\>
+`Promise`\<`SuspenseSubject`\<`DocumentSnapshot`\<`DocumentData`, `DocumentData`\>\>\>
 
 #### Defined in
 
-[src/firestore.tsx:28](https://github.com/FirebaseExtended/reactfire/blob/main/src/firestore.tsx#L28)
+[src/firestore.tsx:28](https://github.com/masewo/reactfire/blob/main/src/firestore.tsx#L28)
 
 ___
 
 ### preloadObservable
 
-▸ **preloadObservable**<`T`\>(`source`, `id`, `suspenseEnabled?`): `SuspenseSubject`<`T`\>
+▸ **preloadObservable**\<`T`\>(`source`, `id`, `suspenseEnabled?`): `SuspenseSubject`\<`T`\>
 
 #### Type parameters
 
@@ -670,37 +670,37 @@ ___
 
 | Name | Type | Default value |
 | :------ | :------ | :------ |
-| `source` | `Observable`<`T`\> | `undefined` |
+| `source` | `Observable`\<`T`\> | `undefined` |
 | `id` | `string` | `undefined` |
 | `suspenseEnabled` | `boolean` | `false` |
 
 #### Returns
 
-`SuspenseSubject`<`T`\>
+`SuspenseSubject`\<`T`\>
 
 #### Defined in
 
-[src/useObservable.ts:20](https://github.com/FirebaseExtended/reactfire/blob/main/src/useObservable.ts#L20)
+[src/useObservable.ts:20](https://github.com/masewo/reactfire/blob/main/src/useObservable.ts#L20)
 
 ___
 
 ### preloadUser
 
-▸ **preloadUser**(`authResolver`): `Promise`<`undefined` \| ``null`` \| `User`\>
+▸ **preloadUser**(`authResolver`): `Promise`\<`undefined` \| ``null`` \| `User`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `authResolver` | () => `Promise`<`Auth`\> |
+| `authResolver` | () => `Promise`\<`Auth`\> |
 
 #### Returns
 
-`Promise`<`undefined` \| ``null`` \| `User`\>
+`Promise`\<`undefined` \| ``null`` \| `User`\>
 
 #### Defined in
 
-[src/auth.tsx:11](https://github.com/FirebaseExtended/reactfire/blob/main/src/auth.tsx#L11)
+[src/auth.tsx:11](https://github.com/masewo/reactfire/blob/main/src/auth.tsx#L11)
 
 ___
 
@@ -714,7 +714,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:84](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L84)
+[src/sdk.tsx:84](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L84)
 
 ___
 
@@ -728,7 +728,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:82](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L82)
+[src/sdk.tsx:82](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L82)
 
 ___
 
@@ -742,13 +742,13 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:83](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L83)
+[src/sdk.tsx:83](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L83)
 
 ___
 
 ### useCallableFunctionResponse
 
-▸ **useCallableFunctionResponse**<`RequestData`, `ResponseData`\>(`functionName`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`ResponseData`\>
+▸ **useCallableFunctionResponse**\<`RequestData`, `ResponseData`\>(`functionName`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`ResponseData`\>
 
 Calls a callable function.
 
@@ -764,15 +764,15 @@ Calls a callable function.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `functionName` | `string` | The name of the function to call |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`ResponseData`\> & { `data?`: `RequestData` ; `httpsCallableOptions?`: `HttpsCallableOptions`  } |  |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`ResponseData`\> & \{ `data?`: `RequestData` ; `httpsCallableOptions?`: `HttpsCallableOptions`  } |  |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`ResponseData`\>
+[`ObservableStatus`](README.md#observablestatus)\<`ResponseData`\>
 
 #### Defined in
 
-[src/functions.tsx:13](https://github.com/FirebaseExtended/reactfire/blob/main/src/functions.tsx#L13)
+[src/functions.tsx:13](https://github.com/masewo/reactfire/blob/main/src/functions.tsx#L13)
 
 ___
 
@@ -786,13 +786,13 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:85](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L85)
+[src/sdk.tsx:85](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L85)
 
 ___
 
 ### useDatabaseList
 
-▸ **useDatabaseList**<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`QueryChange`[] \| `T`[]\>
+▸ **useDatabaseList**\<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`QueryChange`[] \| `T`[]\>
 
 Subscribe to a Realtime Database list
 
@@ -800,55 +800,55 @@ Subscribe to a Realtime Database list
 
 | Name | Type |
 | :------ | :------ |
-| `T` | { `[key: string]`: `unknown`;  } |
+| `T` | \{ `[key: string]`: `unknown`;  } |
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `ref` | `Query` \| `DatabaseReference` | Reference to the DB List you want to listen to |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`T`[]\> |  |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`T`[]\> |  |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`QueryChange`[] \| `T`[]\>
+[`ObservableStatus`](README.md#observablestatus)\<`QueryChange`[] \| `T`[]\>
 
 #### Defined in
 
-[src/database.tsx:48](https://github.com/FirebaseExtended/reactfire/blob/main/src/database.tsx#L48)
+[src/database.tsx:48](https://github.com/masewo/reactfire/blob/main/src/database.tsx#L48)
 
 ___
 
 ### useDatabaseListData
 
-▸ **useDatabaseListData**<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`T`[] \| ``null``\>
+▸ **useDatabaseListData**\<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`T`[] \| ``null``\>
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `T` | { `[key: string]`: `unknown`;  } |
+| `T` | \{ `[key: string]`: `unknown`;  } |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `ref` | `Query` \| `DatabaseReference` |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`T`[]\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`T`[]\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`T`[] \| ``null``\>
+[`ObservableStatus`](README.md#observablestatus)\<`T`[] \| ``null``\>
 
 #### Defined in
 
-[src/database.tsx:58](https://github.com/FirebaseExtended/reactfire/blob/main/src/database.tsx#L58)
+[src/database.tsx:58](https://github.com/masewo/reactfire/blob/main/src/database.tsx#L58)
 
 ___
 
 ### useDatabaseObject
 
-▸ **useDatabaseObject**<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`QueryChange` \| `T`\>
+▸ **useDatabaseObject**\<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`QueryChange` \| `T`\>
 
 Subscribe to a Realtime Database object
 
@@ -863,21 +863,21 @@ Subscribe to a Realtime Database object
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `ref` | `DatabaseReference` | Reference to the DB object you want to listen to |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`T`\> |  |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`T`\> |  |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`QueryChange` \| `T`\>
+[`ObservableStatus`](README.md#observablestatus)\<`QueryChange` \| `T`\>
 
 #### Defined in
 
-[src/database.tsx:27](https://github.com/FirebaseExtended/reactfire/blob/main/src/database.tsx#L27)
+[src/database.tsx:27](https://github.com/masewo/reactfire/blob/main/src/database.tsx#L27)
 
 ___
 
 ### useDatabaseObjectData
 
-▸ **useDatabaseObjectData**<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`T`\>
+▸ **useDatabaseObjectData**\<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`T`\>
 
 #### Type parameters
 
@@ -890,15 +890,15 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `ref` | `DatabaseReference` |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`T`\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`T`\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`T`\>
+[`ObservableStatus`](README.md#observablestatus)\<`T`\>
 
 #### Defined in
 
-[src/database.tsx:34](https://github.com/FirebaseExtended/reactfire/blob/main/src/database.tsx#L34)
+[src/database.tsx:34](https://github.com/masewo/reactfire/blob/main/src/database.tsx#L34)
 
 ___
 
@@ -912,7 +912,7 @@ ___
 
 #### Defined in
 
-[src/firebaseApp.tsx:78](https://github.com/FirebaseExtended/reactfire/blob/main/src/firebaseApp.tsx#L78)
+[src/firebaseApp.tsx:78](https://github.com/masewo/reactfire/blob/main/src/firebaseApp.tsx#L78)
 
 ___
 
@@ -926,13 +926,13 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:86](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L86)
+[src/sdk.tsx:86](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L86)
 
 ___
 
 ### useFirestoreCollection
 
-▸ **useFirestoreCollection**<`T`\>(`query`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`QuerySnapshot`<`T`\>\>
+▸ **useFirestoreCollection**\<`T`\>(`query`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`QuerySnapshot`\<`T`\>\>
 
 Subscribe to a Firestore collection
 
@@ -946,22 +946,22 @@ Subscribe to a Firestore collection
 
 | Name | Type |
 | :------ | :------ |
-| `query` | `Query`<`T`, `DocumentData`\> |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`T`[]\> |
+| `query` | `Query`\<`T`, `DocumentData`\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`T`[]\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`QuerySnapshot`<`T`\>\>
+[`ObservableStatus`](README.md#observablestatus)\<`QuerySnapshot`\<`T`\>\>
 
 #### Defined in
 
-[src/firestore.tsx:86](https://github.com/FirebaseExtended/reactfire/blob/main/src/firestore.tsx#L86)
+[src/firestore.tsx:86](https://github.com/masewo/reactfire/blob/main/src/firestore.tsx#L86)
 
 ___
 
 ### useFirestoreCollectionData
 
-▸ **useFirestoreCollectionData**<`T`\>(`query`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`T`[]\>
+▸ **useFirestoreCollectionData**\<`T`\>(`query`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`T`[]\>
 
 Subscribe to a Firestore collection and unwrap the snapshot into an array.
 
@@ -975,22 +975,22 @@ Subscribe to a Firestore collection and unwrap the snapshot into an array.
 
 | Name | Type |
 | :------ | :------ |
-| `query` | `Query`<`T`, `DocumentData`\> |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`T`[]\> |
+| `query` | `Query`\<`T`, `DocumentData`\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`T`[]\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`T`[]\>
+[`ObservableStatus`](README.md#observablestatus)\<`T`[]\>
 
 #### Defined in
 
-[src/firestore.tsx:96](https://github.com/FirebaseExtended/reactfire/blob/main/src/firestore.tsx#L96)
+[src/firestore.tsx:96](https://github.com/masewo/reactfire/blob/main/src/firestore.tsx#L96)
 
 ___
 
 ### useFirestoreDoc
 
-▸ **useFirestoreDoc**<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`DocumentSnapshot`<`T`\>\>
+▸ **useFirestoreDoc**\<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`DocumentSnapshot`\<`T`\>\>
 
 Subscribe to Firestore Document changes
 
@@ -1006,22 +1006,22 @@ You can preload data for this hook by calling `preloadFirestoreDoc`
 
 | Name | Type |
 | :------ | :------ |
-| `ref` | `DocumentReference`<`T`, `DocumentData`\> |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`T`\> |
+| `ref` | `DocumentReference`\<`T`, `DocumentData`\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`T`\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`DocumentSnapshot`<`T`\>\>
+[`ObservableStatus`](README.md#observablestatus)\<`DocumentSnapshot`\<`T`\>\>
 
 #### Defined in
 
-[src/firestore.tsx:42](https://github.com/FirebaseExtended/reactfire/blob/main/src/firestore.tsx#L42)
+[src/firestore.tsx:42](https://github.com/masewo/reactfire/blob/main/src/firestore.tsx#L42)
 
 ___
 
 ### useFirestoreDocData
 
-▸ **useFirestoreDocData**<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`T` \| `undefined`\>
+▸ **useFirestoreDocData**\<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`T` \| `undefined`\>
 
 Subscribe to Firestore Document changes and unwrap the document into a plain object
 
@@ -1035,22 +1035,22 @@ Subscribe to Firestore Document changes and unwrap the document into a plain obj
 
 | Name | Type |
 | :------ | :------ |
-| `ref` | `DocumentReference`<`T`, `DocumentData`\> |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`T`\> |
+| `ref` | `DocumentReference`\<`T`, `DocumentData`\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`T`\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`T` \| `undefined`\>
+[`ObservableStatus`](README.md#observablestatus)\<`T` \| `undefined`\>
 
 #### Defined in
 
-[src/firestore.tsx:62](https://github.com/FirebaseExtended/reactfire/blob/main/src/firestore.tsx#L62)
+[src/firestore.tsx:62](https://github.com/masewo/reactfire/blob/main/src/firestore.tsx#L62)
 
 ___
 
 ### useFirestoreDocDataOnce
 
-▸ **useFirestoreDocDataOnce**<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`T` \| `undefined`\>
+▸ **useFirestoreDocDataOnce**\<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`T` \| `undefined`\>
 
 Get a Firestore document, unwrap the document into a plain object, and don't subscribe to changes
 
@@ -1064,22 +1064,22 @@ Get a Firestore document, unwrap the document into a plain object, and don't sub
 
 | Name | Type |
 | :------ | :------ |
-| `ref` | `DocumentReference`<`T`, `DocumentData`\> |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`T`\> |
+| `ref` | `DocumentReference`\<`T`, `DocumentData`\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`T`\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`T` \| `undefined`\>
+[`ObservableStatus`](README.md#observablestatus)\<`T` \| `undefined`\>
 
 #### Defined in
 
-[src/firestore.tsx:74](https://github.com/FirebaseExtended/reactfire/blob/main/src/firestore.tsx#L74)
+[src/firestore.tsx:74](https://github.com/masewo/reactfire/blob/main/src/firestore.tsx#L74)
 
 ___
 
 ### useFirestoreDocOnce
 
-▸ **useFirestoreDocOnce**<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`DocumentSnapshot`<`T`\>\>
+▸ **useFirestoreDocOnce**\<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`DocumentSnapshot`\<`T`\>\>
 
 Get a firestore document and don't subscribe to changes
 
@@ -1093,16 +1093,16 @@ Get a firestore document and don't subscribe to changes
 
 | Name | Type |
 | :------ | :------ |
-| `ref` | `DocumentReference`<`T`, `DocumentData`\> |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`T`\> |
+| `ref` | `DocumentReference`\<`T`, `DocumentData`\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`T`\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`DocumentSnapshot`<`T`\>\>
+[`ObservableStatus`](README.md#observablestatus)\<`DocumentSnapshot`\<`T`\>\>
 
 #### Defined in
 
-[src/firestore.tsx:52](https://github.com/FirebaseExtended/reactfire/blob/main/src/firestore.tsx#L52)
+[src/firestore.tsx:52](https://github.com/masewo/reactfire/blob/main/src/firestore.tsx#L52)
 
 ___
 
@@ -1116,13 +1116,13 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:87](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L87)
+[src/sdk.tsx:87](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L87)
 
 ___
 
 ### useIdTokenResult
 
-▸ **useIdTokenResult**(`user`, `forceRefresh?`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`IdTokenResult`\>
+▸ **useIdTokenResult**(`user`, `forceRefresh?`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`IdTokenResult`\>
 
 #### Parameters
 
@@ -1130,204 +1130,204 @@ ___
 | :------ | :------ | :------ |
 | `user` | `User` | `undefined` |
 | `forceRefresh` | `boolean` | `false` |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`IdTokenResult`\> | `undefined` |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`IdTokenResult`\> | `undefined` |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`IdTokenResult`\>
+[`ObservableStatus`](README.md#observablestatus)\<`IdTokenResult`\>
 
 #### Defined in
 
-[src/auth.tsx:31](https://github.com/FirebaseExtended/reactfire/blob/main/src/auth.tsx#L31)
+[src/auth.tsx:31](https://github.com/masewo/reactfire/blob/main/src/auth.tsx#L31)
 
 ___
 
 ### useInitAnalytics
 
-▸ **useInitAnalytics**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`Analytics`\>
+▸ **useInitAnalytics**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`Analytics`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`<`Analytics`\> |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`Analytics`\> |
+| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`\<`Analytics`\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`Analytics`\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`Analytics`\>
+[`ObservableStatus`](README.md#observablestatus)\<`Analytics`\>
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
 ### useInitAppCheck
 
-▸ **useInitAppCheck**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`AppCheck`\>
+▸ **useInitAppCheck**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`AppCheck`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`<`AppCheck`\> |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`AppCheck`\> |
+| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`\<`AppCheck`\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`AppCheck`\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`AppCheck`\>
+[`ObservableStatus`](README.md#observablestatus)\<`AppCheck`\>
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
 ### useInitAuth
 
-▸ **useInitAuth**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`Auth`\>
+▸ **useInitAuth**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`Auth`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`<`Auth`\> |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`Auth`\> |
+| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`\<`Auth`\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`Auth`\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`Auth`\>
+[`ObservableStatus`](README.md#observablestatus)\<`Auth`\>
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
 ### useInitDatabase
 
-▸ **useInitDatabase**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`Database`\>
+▸ **useInitDatabase**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`Database`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`<`Database`\> |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`Database`\> |
+| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`\<`Database`\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`Database`\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`Database`\>
+[`ObservableStatus`](README.md#observablestatus)\<`Database`\>
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
 ### useInitFirestore
 
-▸ **useInitFirestore**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`Firestore`\>
+▸ **useInitFirestore**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`Firestore`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`<`Firestore`\> |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`Firestore`\> |
+| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`\<`Firestore`\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`Firestore`\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`Firestore`\>
+[`ObservableStatus`](README.md#observablestatus)\<`Firestore`\>
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
 ### useInitFunctions
 
-▸ **useInitFunctions**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`Functions`\>
+▸ **useInitFunctions**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`Functions`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`<`Functions`\> |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`Functions`\> |
+| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`\<`Functions`\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`Functions`\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`Functions`\>
+[`ObservableStatus`](README.md#observablestatus)\<`Functions`\>
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
 ### useInitPerformance
 
-▸ **useInitPerformance**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`FirebasePerformance`\>
+▸ **useInitPerformance**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`FirebasePerformance`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`<`FirebasePerformance`\> |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`FirebasePerformance`\> |
+| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`\<`FirebasePerformance`\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`FirebasePerformance`\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`FirebasePerformance`\>
+[`ObservableStatus`](README.md#observablestatus)\<`FirebasePerformance`\>
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
 ### useInitRemoteConfig
 
-▸ **useInitRemoteConfig**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`RemoteConfig`\>
+▸ **useInitRemoteConfig**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`RemoteConfig`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`<`RemoteConfig`\> |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`RemoteConfig`\> |
+| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`\<`RemoteConfig`\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`RemoteConfig`\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`RemoteConfig`\>
+[`ObservableStatus`](README.md#observablestatus)\<`RemoteConfig`\>
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
 ### useInitStorage
 
-▸ **useInitStorage**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`FirebaseStorage`\>
+▸ **useInitStorage**(`initializer`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`FirebaseStorage`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`<`FirebaseStorage`\> |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`FirebaseStorage`\> |
+| `initializer` | (`firebaseApp`: `FirebaseApp`) => `Promise`\<`FirebaseStorage`\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`FirebaseStorage`\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`FirebaseStorage`\>
+[`ObservableStatus`](README.md#observablestatus)\<`FirebaseStorage`\>
 
 #### Defined in
 
-[src/sdk.tsx:92](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L92)
+[src/sdk.tsx:92](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L92)
 
 ___
 
@@ -1341,13 +1341,13 @@ ___
 
 #### Defined in
 
-[src/firebaseApp.tsx:60](https://github.com/FirebaseExtended/reactfire/blob/main/src/firebaseApp.tsx#L60)
+[src/firebaseApp.tsx:60](https://github.com/masewo/reactfire/blob/main/src/firebaseApp.tsx#L60)
 
 ___
 
 ### useObservable
 
-▸ **useObservable**<`T`\>(`observableId`, `source`, `config?`): [`ObservableStatus`](README.md#observablestatus)<`T`\>
+▸ **useObservable**\<`T`\>(`observableId`, `source`, `config?`): [`ObservableStatus`](README.md#observablestatus)\<`T`\>
 
 #### Type parameters
 
@@ -1360,16 +1360,16 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `observableId` | `string` |
-| `source` | `Observable`<`T`\> |
-| `config` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`unknown`\> |
+| `source` | `Observable`\<`T`\> |
+| `config` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`unknown`\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`T`\>
+[`ObservableStatus`](README.md#observablestatus)\<`T`\>
 
 #### Defined in
 
-[src/useObservable.ts:86](https://github.com/FirebaseExtended/reactfire/blob/main/src/useObservable.ts#L86)
+[src/useObservable.ts:86](https://github.com/masewo/reactfire/blob/main/src/useObservable.ts#L86)
 
 ___
 
@@ -1383,7 +1383,7 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:88](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L88)
+[src/sdk.tsx:88](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L88)
 
 ___
 
@@ -1397,13 +1397,13 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:90](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L90)
+[src/sdk.tsx:90](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L90)
 
 ___
 
 ### useRemoteConfigAll
 
-▸ **useRemoteConfigAll**(`key`): [`ObservableStatus`](README.md#observablestatus)<`AllParameters`\>
+▸ **useRemoteConfigAll**(`key`): [`ObservableStatus`](README.md#observablestatus)\<`AllParameters`\>
 
 Convience method similar to useRemoteConfigValue. Returns allRemote Config parameters.
 
@@ -1415,17 +1415,17 @@ Convience method similar to useRemoteConfigValue. Returns allRemote Config param
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`AllParameters`\>
+[`ObservableStatus`](README.md#observablestatus)\<`AllParameters`\>
 
 #### Defined in
 
-[src/remote-config.tsx:66](https://github.com/FirebaseExtended/reactfire/blob/main/src/remote-config.tsx#L66)
+[src/remote-config.tsx:66](https://github.com/masewo/reactfire/blob/main/src/remote-config.tsx#L66)
 
 ___
 
 ### useRemoteConfigBoolean
 
-▸ **useRemoteConfigBoolean**(`key`): [`ObservableStatus`](README.md#observablestatus)<`boolean`\>
+▸ **useRemoteConfigBoolean**(`key`): [`ObservableStatus`](README.md#observablestatus)\<`boolean`\>
 
 Convience method similar to useRemoteConfigValue. Returns a `boolean` from a Remote Config parameter.
 
@@ -1437,17 +1437,17 @@ Convience method similar to useRemoteConfigValue. Returns a `boolean` from a Rem
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`boolean`\>
+[`ObservableStatus`](README.md#observablestatus)\<`boolean`\>
 
 #### Defined in
 
-[src/remote-config.tsx:58](https://github.com/FirebaseExtended/reactfire/blob/main/src/remote-config.tsx#L58)
+[src/remote-config.tsx:58](https://github.com/masewo/reactfire/blob/main/src/remote-config.tsx#L58)
 
 ___
 
 ### useRemoteConfigNumber
 
-▸ **useRemoteConfigNumber**(`key`): [`ObservableStatus`](README.md#observablestatus)<`number`\>
+▸ **useRemoteConfigNumber**(`key`): [`ObservableStatus`](README.md#observablestatus)\<`number`\>
 
 Convience method similar to useRemoteConfigValue. Returns a `number` from a Remote Config parameter.
 
@@ -1459,17 +1459,17 @@ Convience method similar to useRemoteConfigValue. Returns a `number` from a Remo
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`number`\>
+[`ObservableStatus`](README.md#observablestatus)\<`number`\>
 
 #### Defined in
 
-[src/remote-config.tsx:50](https://github.com/FirebaseExtended/reactfire/blob/main/src/remote-config.tsx#L50)
+[src/remote-config.tsx:50](https://github.com/masewo/reactfire/blob/main/src/remote-config.tsx#L50)
 
 ___
 
 ### useRemoteConfigString
 
-▸ **useRemoteConfigString**(`key`): [`ObservableStatus`](README.md#observablestatus)<`string`\>
+▸ **useRemoteConfigString**(`key`): [`ObservableStatus`](README.md#observablestatus)\<`string`\>
 
 Convience method similar to useRemoteConfigValue. Returns a `string` from a Remote Config parameter.
 
@@ -1481,17 +1481,17 @@ Convience method similar to useRemoteConfigValue. Returns a `string` from a Remo
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`string`\>
+[`ObservableStatus`](README.md#observablestatus)\<`string`\>
 
 #### Defined in
 
-[src/remote-config.tsx:42](https://github.com/FirebaseExtended/reactfire/blob/main/src/remote-config.tsx#L42)
+[src/remote-config.tsx:42](https://github.com/masewo/reactfire/blob/main/src/remote-config.tsx#L42)
 
 ___
 
 ### useRemoteConfigValue
 
-▸ **useRemoteConfigValue**(`key`): [`ObservableStatus`](README.md#observablestatus)<`RemoteConfigValue`\>
+▸ **useRemoteConfigValue**(`key`): [`ObservableStatus`](README.md#observablestatus)\<`RemoteConfigValue`\>
 
 Accepts a key and optionally a Remote Config instance. Returns a
 Remote Config Value.
@@ -1504,17 +1504,17 @@ Remote Config Value.
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`RemoteConfigValue`\>
+[`ObservableStatus`](README.md#observablestatus)\<`RemoteConfigValue`\>
 
 #### Defined in
 
-[src/remote-config.tsx:34](https://github.com/FirebaseExtended/reactfire/blob/main/src/remote-config.tsx#L34)
+[src/remote-config.tsx:34](https://github.com/masewo/reactfire/blob/main/src/remote-config.tsx#L34)
 
 ___
 
 ### useSigninCheck
 
-▸ **useSigninCheck**(`options?`): [`ObservableStatus`](README.md#observablestatus)<[`SigninCheckResult`](README.md#signincheckresult)\>
+▸ **useSigninCheck**(`options?`): [`ObservableStatus`](README.md#observablestatus)\<[`SigninCheckResult`](README.md#signincheckresult)\>
 
 Subscribe to the signed-in status of a user.
 
@@ -1554,11 +1554,11 @@ const {status, data: signInCheckResult} = useSigninCheck({forceRefresh: true, re
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<[`SigninCheckResult`](README.md#signincheckresult)\>
+[`ObservableStatus`](README.md#observablestatus)\<[`SigninCheckResult`](README.md#signincheckresult)\>
 
 #### Defined in
 
-[src/auth.tsx:124](https://github.com/FirebaseExtended/reactfire/blob/main/src/auth.tsx#L124)
+[src/auth.tsx:124](https://github.com/masewo/reactfire/blob/main/src/auth.tsx#L124)
 
 ___
 
@@ -1572,13 +1572,13 @@ ___
 
 #### Defined in
 
-[src/sdk.tsx:89](https://github.com/FirebaseExtended/reactfire/blob/main/src/sdk.tsx#L89)
+[src/sdk.tsx:89](https://github.com/masewo/reactfire/blob/main/src/sdk.tsx#L89)
 
 ___
 
 ### useStorageDownloadURL
 
-▸ **useStorageDownloadURL**<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`string` \| `T`\>
+▸ **useStorageDownloadURL**\<`T`\>(`ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`string` \| `T`\>
 
 Subscribe to a storage ref's download URL
 
@@ -1593,21 +1593,21 @@ Subscribe to a storage ref's download URL
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `ref` | `StorageReference` | reference to the blob you want to download |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`T`\> |  |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`T`\> |  |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`string` \| `T`\>
+[`ObservableStatus`](README.md#observablestatus)\<`string` \| `T`\>
 
 #### Defined in
 
-[src/storage.tsx:29](https://github.com/FirebaseExtended/reactfire/blob/main/src/storage.tsx#L29)
+[src/storage.tsx:29](https://github.com/masewo/reactfire/blob/main/src/storage.tsx#L29)
 
 ___
 
 ### useStorageTask
 
-▸ **useStorageTask**<`T`\>(`task`, `ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)<`UploadTaskSnapshot` \| `T`\>
+▸ **useStorageTask**\<`T`\>(`task`, `ref`, `options?`): [`ObservableStatus`](README.md#observablestatus)\<`UploadTaskSnapshot` \| `T`\>
 
 Subscribe to the progress of a storage task
 
@@ -1623,15 +1623,15 @@ Subscribe to the progress of a storage task
 | :------ | :------ | :------ |
 | `task` | `UploadTask` | the task you want to listen to |
 | `ref` | `StorageReference` | reference to the blob the task is acting on |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`T`\> |  |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`T`\> |  |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`UploadTaskSnapshot` \| `T`\>
+[`ObservableStatus`](README.md#observablestatus)\<`UploadTaskSnapshot` \| `T`\>
 
 #### Defined in
 
-[src/storage.tsx:16](https://github.com/FirebaseExtended/reactfire/blob/main/src/storage.tsx#L16)
+[src/storage.tsx:16](https://github.com/masewo/reactfire/blob/main/src/storage.tsx#L16)
 
 ___
 
@@ -1651,13 +1651,13 @@ ___
 
 #### Defined in
 
-[src/firebaseApp.tsx:67](https://github.com/FirebaseExtended/reactfire/blob/main/src/firebaseApp.tsx#L67)
+[src/firebaseApp.tsx:67](https://github.com/masewo/reactfire/blob/main/src/firebaseApp.tsx#L67)
 
 ___
 
 ### useUser
 
-▸ **useUser**<`T`\>(`options?`): [`ObservableStatus`](README.md#observablestatus)<`User` \| ``null``\>
+▸ **useUser**\<`T`\>(`options?`): [`ObservableStatus`](README.md#observablestatus)\<`User` \| ``null``\>
 
 Subscribe to Firebase auth state changes, including token refresh
 
@@ -1671,12 +1671,12 @@ Subscribe to Firebase auth state changes, including token refresh
 
 | Name | Type |
 | :------ | :------ |
-| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)<`T`\> |
+| `options?` | [`ReactFireOptions`](interfaces/ReactFireOptions.md)\<`T`\> |
 
 #### Returns
 
-[`ObservableStatus`](README.md#observablestatus)<`User` \| ``null``\>
+[`ObservableStatus`](README.md#observablestatus)\<`User` \| ``null``\>
 
 #### Defined in
 
-[src/auth.tsx:22](https://github.com/FirebaseExtended/reactfire/blob/main/src/auth.tsx#L22)
+[src/auth.tsx:22](https://github.com/masewo/reactfire/blob/main/src/auth.tsx#L22)

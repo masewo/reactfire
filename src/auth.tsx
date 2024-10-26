@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { user } from 'rxfire/auth';
+import { user } from 'rxfire/dist/auth'
 import { preloadObservable, ReactFireOptions, useAuth, useObservable, ObservableStatus, ReactFireError } from './';
 import { from, of } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';

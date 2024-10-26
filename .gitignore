@@ -26,3 +26,5 @@ unpack.sh
 example/.parcel-cache/
 .firebaserc
 stats.html
+
+.idea

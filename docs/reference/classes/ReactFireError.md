@@ -41,7 +41,7 @@
 | :------ | :------ |
 | `code` | `string` |
 | `message` | `string` |
-| `customData?` | `Record`<`string`, `unknown`\> |
+| `customData?` | `Record`\<`string`, `unknown`\> |
 
 #### Overrides
 
@@ -49,7 +49,7 @@ Error.constructor
 
 #### Defined in
 
-[src/index.ts:15](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L15)
+[src/index.ts:15](https://github.com/masewo/reactfire/blob/main/src/index.ts#L15)
 
 ## Properties
 
@@ -73,17 +73,17 @@ ___
 
 #### Defined in
 
-[src/index.ts:15](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L15)
+[src/index.ts:15](https://github.com/masewo/reactfire/blob/main/src/index.ts#L15)
 
 ___
 
 ### customData
 
-• `Optional` **customData**: `Record`<`string`, `unknown`\>
+• `Optional` **customData**: `Record`\<`string`, `unknown`\>
 
 #### Defined in
 
-[src/index.ts:15](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L15)
+[src/index.ts:15](https://github.com/masewo/reactfire/blob/main/src/index.ts#L15)
 
 ___
 
@@ -111,7 +111,7 @@ Error.name
 
 #### Defined in
 
-[src/index.ts:13](https://github.com/FirebaseExtended/reactfire/blob/main/src/index.ts#L13)
+[src/index.ts:13](https://github.com/masewo/reactfire/blob/main/src/index.ts#L13)
 
 ___
 
@@ -139,10 +139,6 @@ ___
 
 Optional override for formatting stack traces
 
-**`See`**
-
-https://v8.dev/docs/stack-trace-api#customizing-stack-traces
-
 ##### Parameters
 
 | Name | Type |
@@ -154,13 +150,17 @@ https://v8.dev/docs/stack-trace-api#customizing-stack-traces
 
 `any`
 
+**`See`**
+
+https://v8.dev/docs/stack-trace-api#customizing-stack-traces
+
 #### Inherited from
 
 Error.prepareStackTrace
 
 #### Defined in
 
-node_modules/@types/node/globals.d.ts:11
+node_modules/@types/node/globals.d.ts:143
 
 ___
 
@@ -174,7 +174,7 @@ Error.stackTraceLimit
 
 #### Defined in
 
-node_modules/@types/node/globals.d.ts:13
+node_modules/@types/node/globals.d.ts:145
 
 ## Methods
 
@@ -201,4 +201,4 @@ Error.captureStackTrace
 
 #### Defined in
 
-node_modules/@types/node/globals.d.ts:4
+node_modules/@types/node/globals.d.ts:136

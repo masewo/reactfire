@@ -1,4 +1,4 @@
-import { QueryChange } from 'rxfire/database';
+import { QueryChange } from 'rxfire/dist/database';
 import { ReactFireOptions, ObservableStatus } from './';
 import type { Query as DatabaseQuery, DatabaseReference } from 'firebase/database';
 /**
